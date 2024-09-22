@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Quiz</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+      </style>
+    <link rel="stylesheet" href="Decore.css" />
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1>
+        <b> !! QUIZ WORLD !! </b>
+      </h1>
+    </div>
+
+    <div class="frm">
+        <form>
+          <label for="u_name_inp"> UserName </label>
+          <input type="text" id="u_name_inp" />
+
+          <label for="email_inp"> Email </label>
+          <input type="email" id="email_inp" />
+
+          <label for="address_inp"> Address </label>
+          <input type="text" id="address_inp" />
+
+        </form>
+    </div>
+    <div>
+      <button id="ent_btn">Enter</button>
+    </div>
+
+    <div class="p_dtl">
+      <table>
+            <th>Personal Details :</th>
+            <tr>
+              <td id="u_name">UserName :</td>
+            </tr>
+            <tr>
+              <td id="email">Email :</td>
+            </tr>
+            <tr>
+              <td id="address">Address :</td>
+            </tr>
+      </table>
+    </div>
+
+    <div class="quiz_begin">
+      <h1>
+        <i> LET'S START THE QUICK QUIZ !!! </i>
+      </h1>
+    </div>
+
+    <div>
+      <button id="srt_btn">START</button>
+    </div>
+
+    <div id="ques"> </div>
+
+    <div class="crt_ans">
+      <form>
+        <label for="crt_ans"> Answer :  </label>
+        <input type="text" id="crt_ans" placeholder="A. ..." />
+      </form>  
+    </div>
+
+    <div>
+      <button id="sub_btn">SUBMIT</button>
+      <button id="next_btn">NEXT</button>
+    </div>
+
+    <div class="result">
+        <table>
+          <th id="tq_note">REWARD :</th>
+        </table>
+    <script src="work.js"></script>
+  </body>
+</html>

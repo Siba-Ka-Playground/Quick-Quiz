@@ -1,0 +1,111 @@
+body {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_qiHZ57u7dojkDqYB35guXhMV3ey94JOvlKgrXPkkRsJpCY-fnqjQrMidrECF4UAaWw&usqp=CAU);
+}
+
+.heading {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-shadow: 4px 2px 4px rgb(0, 42, 255);
+}
+.quiz_begin {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  text-shadow: 2px 1px 2px rgb(0, 42, 255);
+}
+.frm {
+  background-color: rgb(0 0 139 / 41%);
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 31px;
+  display: grid;
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  align-items: center;
+  justify-items: center;
+  color: aliceblue;
+}
+.p_dtl {
+  background-color: rgb(0 0 139 / 41%);
+  padding-left: 250px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 31px;
+  display: grid;
+  height: 170px;
+  border-radius: 0px 0px 10px 10px;
+  align-content: center;
+  justify-items: start;
+  color: aliceblue;
+}
+input {
+  font-size: 18px;
+}
+button {
+  background-color: whitesmoke;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 110px;
+  box-shadow: 2px 2px 5px whitesmoke;
+}
+button:active {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 110px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+#ques {
+  background-color: rgb(0 0 139 / 41%);
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 31px;
+  display: grid;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+  align-content: center;
+  justify-items: start;
+  color: aliceblue;
+}
+.crt_ans {
+  background-color: rgb(0 0 139 / 41%);
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 31px;
+  display: grid;
+  height: 80px;
+  align-content: center;
+  justify-items: start;
+  color: aliceblue;
+}
+.result {
+  background-color: rgb(0 0 139 / 41%);
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 31px;
+  display: grid;
+  height: 150px;
+  border-radius: 0px 0px 10px 10px;
+  align-content: center;
+  justify-items: start;
+  color: aliceblue;
+}
+#srt_btn,
+#sub_btn,
+#ent_btn,
+#next_btn {
+  margin-left: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
